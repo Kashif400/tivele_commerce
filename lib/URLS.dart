@@ -1,0 +1,31 @@
+class URLS {
+  static const String BASEURL = "https://admin.tivele.com/";
+  static const String registration = "api/registration";
+  static const String login = "api/login";
+  static const String upload_image = "api/upload_image";
+  static const String upload_video = "api/upload_video";
+  static const String get_orders = "api/get_orders";
+  static const String accept_order_by_driver = "api/accept_order_by_driver";
+  static const String order_picked_by_driver = "api/order_picked_by_driver";
+  static const String order_delivered_by_driver = "api/order_delivered_by_driver";
+  static const String get_orders_by_driver_id = "api/get_orders_by_driver_id";
+  static const String get_orders_by_user_id = "api/get_orders_by_user_id";
+  static const String get_favorite_products = "api/get_favorite_products";
+  static const String get_product_categories = "api/get_product_categories";
+  static const String add_product = "api/add_product";
+  static const String business_profile = "api/business_profile";
+  static const String get_timeline_data = "api/get_timeline_data";
+  static const String add_like = "api/add_like";
+  static const String get_explore = "api/get_explore";
+  static const String get_tivele_data = "api/get_tivele_data";
+  static const String business_profile_by_id = "api/business_profile_by_id";
+  static const String add_follow = "api/add_follow";
+  static const String update_user_profile_image = "api/update_user_profile_image";
+  static const String update_business_profile_image = "api/update_business_profile_image";
+  static const String update_user_password = "api/update_user_password";
+  static const String order_placed_by_user = "api/order_placed_by_user";
+  static const String order_reviewed_by_user = "api/order_reviewed_by_user";
+  static const String decline_order_by_driver = "api/decline_order_by_driver";
+  static const String verify_user_status = "api/verify_user_status";
+  static const String user_email_verification_resend = "api/user_email_verification_resend";
+}

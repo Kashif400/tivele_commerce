@@ -1,0 +1,38 @@
+{
+  "provider": "google_pay",
+  "data": {
+    "environment": "Production",
+    "apiVersion": 2,
+    "apiVersionMinor": 0,
+    "allowedPaymentMethods": [
+      {
+        "type": "CARD",
+        "tokenizationSpecification": {
+          "type": "PAYMENT_GATEWAY",
+          "parameters": {
+            "gateway": "stripe",
+            "stripe:version": "2020-08-27",
+            "stripe:publishableKey": "pk_live_3ayggMnNp5g9v2tJdRbPA5sO00UlZ9bk9L"
+          }
+        },
+        "parameters": {
+          "allowedCardNetworks": ["VISA", "MASTERCARD"],
+          "allowedAuthMethods": ["PAN_ONLY", "CRYPTOGRAM_3DS"],
+          "billingAddressRequired": false,
+          "billingAddressParameters": {
+            "format": "FULL",
+            "phoneNumberRequired": false
+          }
+        }
+      }
+    ],
+    "merchantInfo": {
+      "merchantId": "Production",
+      "merchantName": "Tivele"
+    },
+    "transactionInfo": {
+      "countryCode": "CA",
+      "currencyCode": "CAD"
+    }
+  }
+}
